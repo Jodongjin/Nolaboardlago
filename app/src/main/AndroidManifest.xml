@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.boardgame">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BoardGame">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".diaryActivity" android:label="다이어리" />
+        <activity android:name=".signupActivity" android:label="회원가입" />
+
+        <activity android:name=".rummikubActivity" android:label="루미큐브" />
+        <activity android:name=".davincicodeActivity" android:label="다빈치 코드" />
+        <activity android:name=".BangActivity" android:label="뱅" />
+        <activity android:name=".ClueActivity" android:label="클루" />
+        <activity android:name=".HalliGalliActivity" android:label="할리갈리" />
+        <activity android:name=".IndianpokerActivity" android:label="인디언포커" />
+        <activity android:name=".LasvegasActivity" android:label="라스베가스" />
+        <activity android:name=".Lobo77Activity" android:label="로보77" />
+        <activity android:name=".SplendorActivity" android:label="스플렌더" />
+        <activity android:name=".UbongoActivity" android:label="우봉고" />
+
+        <activity android:name=".rummikubReviewActivity" android:label="루비큐브 리뷰" />
+        <activity android:name=".davincicodeReviewActivity" android:label="다빈치코드 리뷰" />
+        <activity android:name=".BangReviewActivity" android:label="뱅 리뷰" />
+        <activity android:name=".ClueReviewActivity" android:label="클루 리뷰" />
+        <activity android:name=".HalliGalliReviewActivity" android:label="할리갈리 리뷰" />
+        <activity android:name=".IndianpokerReviewActivity" android:label="인디언포커 리뷰" />
+        <activity android:name=".LasvesgasReviewActivity" android:label="라스베가스 리뷰" />
+        <activity android:name=".Lobo77ReviewActivity" android:label="로보77 리뷰" />
+        <activity android:name=".SplendorReviewActivity" android:label="스플렌더 리뷰" />
+        <activity android:name=".UbongoReviewActivity" android:label="우봉고 리뷰" />
+    </application>
+
+</manifest>
